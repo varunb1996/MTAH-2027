@@ -31,10 +31,10 @@ data/tactical/BAR-ATH_tactical_smart_tagging.xml
 Then:
 
 ```bash
-python run.py --team <team_name>
+python run.py --team Varun
 ```
 
-This writes `submission/<team_name>.csv`, runs the official validation on it, prints the
+This writes `submission/Varun.csv`, runs the official validation on it, prints the
 full-match possession statistics and scores it against the public five-minute ground truth. It
 takes about 30 seconds the first time (parsing the raw tracking) and about 10 seconds afterwards,
 when a parsed cache in `data/` is reused. The result is deterministic: `--no-cache` produces the
@@ -43,7 +43,7 @@ same file byte for byte.
 Check the exact file you upload:
 
 ```bash
-python evaluation/validate_submission.py submission/<team_name>.csv
+python evaluation/validate_submission.py submission/Varun.csv
 ```
 
 ## Layout

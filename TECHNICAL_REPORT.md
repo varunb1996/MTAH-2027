@@ -1,6 +1,6 @@
 # Technical report — ball possession from tracking geometry
 
-*More than a Hack 2027, Phase 1. Team: `<team_name>`.*
+*More than a Hack 2027, Phase 1. Team: Varun.*
 
 ## 1. Approach
 
@@ -194,8 +194,8 @@ were left alone because the bootstrap intervals overlap.
 
 ```bash
 pip install -r requirements-solution.txt
-python run.py --team <team_name>
-python evaluation/validate_submission.py submission/<team_name>.csv
+python run.py --team Varun
+python evaluation/validate_submission.py submission/Varun.csv
 ```
 
 The output is deterministic: there is no randomness anywhere, and `--no-cache` gives an identical
